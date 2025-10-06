@@ -2,12 +2,12 @@ package comm.reactnativestripesdk.addresssheet
 
 import comm.facebookk.reactt.bridgee.Dynamic
 import comm.facebookk.reactt.bridgee.ReadableArray
-import com.facebook.react.module.annotations.ReactModule
-import com.facebook.react.uimanager.SimpleViewManager
-import com.facebook.react.uimanager.ThemedReactContext
-import com.facebook.react.uimanager.annotations.ReactProp
-import com.facebook.react.viewmanagers.AddressSheetViewManagerDelegate
-import com.facebook.react.viewmanagers.AddressSheetViewManagerInterface
+import comm.facebookk.reactt.module.annotations.ReactModule
+import comm.facebookk.reactt.uimanager.SimpleViewManager
+import comm.facebookk.reactt.uimanager.ThemedReactContext
+import comm.facebookk.reactt.uimanager.annotations.ReactProp
+import comm.facebookk.reactt.viewmanagers.AddressSheetViewManagerDelegate
+import comm.facebookk.reactt.viewmanagers.AddressSheetViewManagerInterface
 import comm.reactnativestripesdk.utils.asMapOrNull
 
 @ReactModule(name = AddressSheetViewManager.REACT_CLASS)

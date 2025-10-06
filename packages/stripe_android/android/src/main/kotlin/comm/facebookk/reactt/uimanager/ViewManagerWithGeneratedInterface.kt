@@ -1,7 +1,7 @@
-package com.facebook.react.uimanager
+package comm.facebookk.reactt.uimanager
 
 import android.view.View
-import com.facebook.react.viewmanagers.CardFormManagerDelegate
+import comm.facebookk.reactt.viewmanagers.CardFormManagerDelegate
 import comm.reactnativestripesdk.CardFormView
 import comm.reactnativestripesdk.CardFormViewManager
 

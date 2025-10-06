@@ -1,11 +1,11 @@
 package comm.reactnativestripesdk
 
-import com.facebook.react.module.annotations.ReactModule
-import com.facebook.react.uimanager.SimpleViewManager
-import com.facebook.react.uimanager.ThemedReactContext
-import com.facebook.react.uimanager.annotations.ReactProp
-import com.facebook.react.viewmanagers.GooglePayButtonManagerDelegate
-import com.facebook.react.viewmanagers.GooglePayButtonManagerInterface
+import comm.facebookk.reactt.module.annotations.ReactModule
+import comm.facebookk.reactt.uimanager.SimpleViewManager
+import comm.facebookk.reactt.uimanager.ThemedReactContext
+import comm.facebookk.reactt.uimanager.annotations.ReactProp
+import comm.facebookk.reactt.viewmanagers.GooglePayButtonManagerDelegate
+import comm.facebookk.reactt.viewmanagers.GooglePayButtonManagerInterface
 
 @ReactModule(name = GooglePayButtonManager.REACT_CLASS)
 class GooglePayButtonManager :

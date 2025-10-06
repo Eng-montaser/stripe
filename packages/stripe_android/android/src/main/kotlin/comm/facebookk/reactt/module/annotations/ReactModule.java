@@ -1,4 +1,4 @@
-package com.facebook.react.module.annotations;
+package comm.facebookk.reactt.module.annotations;
 
 public @interface ReactModule {
     String name();

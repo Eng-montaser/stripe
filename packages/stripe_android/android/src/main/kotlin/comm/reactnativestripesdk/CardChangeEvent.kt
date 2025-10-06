@@ -2,7 +2,7 @@ package comm.reactnativestripesdk
 
 import comm.facebookk.reactt.bridgee.Arguments
 import comm.facebookk.reactt.bridgee.WritableMap
-import com.facebook.react.uimanager.events.Event
+import comm.facebookk.reactt.uimanager.events.Event
 
 internal class CardChangeEvent(
   surfaceId: Int,

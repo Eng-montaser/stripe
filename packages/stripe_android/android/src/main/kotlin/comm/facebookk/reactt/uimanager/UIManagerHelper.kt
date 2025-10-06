@@ -1,6 +1,6 @@
-package com.facebook.react.uimanager
+package comm.facebookk.reactt.uimanager
 
-import com.facebook.react.uimanager.events.EventDispatcher
+import comm.facebookk.reactt.uimanager.events.EventDispatcher
 
 class UIManagerHelper {
     companion object {

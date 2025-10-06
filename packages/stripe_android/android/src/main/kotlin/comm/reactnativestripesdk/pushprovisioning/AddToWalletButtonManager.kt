@@ -4,12 +4,12 @@ import android.content.Context
 import com.bumptech.glide.Glide
 import comm.facebookk.reactt.bridgee.Dynamic
 import comm.facebookk.reactt.bridgee.ReadableMap
-import com.facebook.react.module.annotations.ReactModule
-import com.facebook.react.uimanager.SimpleViewManager
-import com.facebook.react.uimanager.ThemedReactContext
-import com.facebook.react.uimanager.annotations.ReactProp
-import com.facebook.react.viewmanagers.AddToWalletButtonManagerDelegate
-import com.facebook.react.viewmanagers.AddToWalletButtonManagerInterface
+import comm.facebookk.reactt.module.annotations.ReactModule
+import comm.facebookk.reactt.uimanager.SimpleViewManager
+import comm.facebookk.reactt.uimanager.ThemedReactContext
+import comm.facebookk.reactt.uimanager.annotations.ReactProp
+import comm.facebookk.reactt.viewmanagers.AddToWalletButtonManagerDelegate
+import comm.facebookk.reactt.viewmanagers.AddToWalletButtonManagerInterface
 import comm.reactnativestripesdk.utils.asMapOrNull
 
 @ReactModule(name = AddToWalletButtonManager.REACT_CLASS)

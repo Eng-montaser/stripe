@@ -2,8 +2,8 @@ package comm.facebookk.reactt.bridgee
 
 import android.content.ContextWrapper
 import androidx.fragment.app.FragmentActivity
-import com.facebook.react.modules.core.DeviceEventManagerModule
-import com.facebook.react.uimanager.UIManagerModule
+import comm.facebookk.reactt.modules.core.DeviceEventManagerModule
+import comm.facebookk.reactt.uimanager.UIManagerModule
 import comm.reactnativestripesdk.StripeSdkModule
 import io.flutter.plugin.common.MethodChannel
 

@@ -5,8 +5,8 @@ import androidx.annotation.NonNull
 import comm.facebookk.reactt.bridgee.Promise
 import comm.facebookk.reactt.bridgee.ReactApplicationContext
 import comm.facebookk.reactt.bridgee.ReadableMap
-import com.facebook.react.uimanager.DisplayMetricsHolder
-import com.facebook.react.uimanager.ThemedReactContext
+import comm.facebookk.reactt.uimanager.DisplayMetricsHolder
+import comm.facebookk.reactt.uimanager.ThemedReactContext
 import com.google.android.material.internal.ThemeEnforcement
 import comm.reactnativestripesdk.*
 import comm.reactnativestripesdk.addresssheet.AddressSheetViewManager

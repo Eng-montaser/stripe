@@ -2,7 +2,7 @@ package comm.flutter.stripe
 
 import android.content.Context
 import android.view.View
-import com.facebook.react.uimanager.ThemedReactContext
+import comm.facebookk.reactt.uimanager.ThemedReactContext
 import comm.reactnativestripesdk.GooglePayButtonManager
 import comm.reactnativestripesdk.GooglePayButtonView
 import comm.reactnativestripesdk.StripeSdkModule

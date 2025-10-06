@@ -1,4 +1,4 @@
-package com.facebook.react.uimanager
+package comm.facebookk.reactt.uimanager
 
 import android.view.View
 import comm.reactnativestripesdk.StripeAbstractComposeView

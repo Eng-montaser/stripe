@@ -1,4 +1,4 @@
-package com.facebook.react.turbomodule.core.interfaces;
+package comm.facebookk.reactt.turbomodule.core.interfaces;
 
 public interface TurboModule {
 }

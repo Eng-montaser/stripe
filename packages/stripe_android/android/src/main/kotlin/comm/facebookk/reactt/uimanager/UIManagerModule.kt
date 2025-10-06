@@ -1,9 +1,9 @@
-package com.facebook.react.uimanager
+package comm.facebookk.reactt.uimanager
 
 import comm.facebookk.reactt.bridgee.ReadableMap
-import com.facebook.react.uimanager.events.Event
-import com.facebook.react.uimanager.events.EventDispatcher
-import com.facebook.react.uimanager.events.RCTEventEmitter
+import comm.facebookk.reactt.uimanager.events.Event
+import comm.facebookk.reactt.uimanager.events.EventDispatcher
+import comm.facebookk.reactt.uimanager.events.RCTEventEmitter
 import io.flutter.plugin.common.MethodChannel
 
 class UIManagerModule(channel: MethodChannel) {

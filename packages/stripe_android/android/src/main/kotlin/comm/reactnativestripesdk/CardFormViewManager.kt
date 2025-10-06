@@ -2,12 +2,12 @@ package comm.reactnativestripesdk
 
 import comm.facebookk.reactt.bridgee.Dynamic
 import comm.facebookk.reactt.bridgee.ReadableArray
-import com.facebook.react.module.annotations.ReactModule
-import com.facebook.react.uimanager.SimpleViewManager
-import com.facebook.react.uimanager.ThemedReactContext
-import com.facebook.react.uimanager.annotations.ReactProp
-import com.facebook.react.viewmanagers.CardFormManagerDelegate
-import com.facebook.react.viewmanagers.CardFormManagerInterface
+import comm.facebookk.reactt.module.annotations.ReactModule
+import comm.facebookk.reactt.uimanager.SimpleViewManager
+import comm.facebookk.reactt.uimanager.ThemedReactContext
+import comm.facebookk.reactt.uimanager.annotations.ReactProp
+import comm.facebookk.reactt.viewmanagers.CardFormManagerDelegate
+import comm.facebookk.reactt.viewmanagers.CardFormManagerInterface
 import comm.reactnativestripesdk.utils.asMapOrNull
 
 @ReactModule(name = CardFormViewManager.REACT_CLASS)

@@ -4,7 +4,7 @@ import android.content.Context
 import android.view.View
 import comm.facebookk.reactt.bridgee.ReadableArray
 import comm.facebookk.reactt.bridgee.ReadableMap
-import com.facebook.react.uimanager.ThemedReactContext
+import comm.facebookk.reactt.uimanager.ThemedReactContext
 import comm.reactnativestripesdk.StripeSdkModule
 import comm.reactnativestripesdk.addresssheet.AddressSheetView
 import comm.reactnativestripesdk.addresssheet.AddressSheetViewManager

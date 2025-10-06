@@ -9,7 +9,7 @@ import android.view.inputmethod.InputMethodManager
 import androidx.annotation.NonNull
 import comm.facebookk.reactt.bridgee.ReadableArray
 import comm.facebookk.reactt.bridgee.ReadableMap
-import com.facebook.react.uimanager.ThemedReactContext
+import comm.facebookk.reactt.uimanager.ThemedReactContext
 import comm.reactnativestripesdk.*
 import comm.reactnativestripesdk.utils.getIntOrNull
 import comm.reactnativestripesdk.utils.getValOr

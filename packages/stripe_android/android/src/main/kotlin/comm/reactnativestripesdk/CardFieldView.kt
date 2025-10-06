@@ -11,10 +11,10 @@ import android.util.Log
 import android.widget.FrameLayout
 import androidx.core.os.LocaleListCompat
 import comm.facebookk.reactt.bridgee.ReadableMap
-import com.facebook.react.uimanager.PixelUtil
-import com.facebook.react.uimanager.ThemedReactContext
-import com.facebook.react.uimanager.UIManagerHelper
-import com.facebook.react.views.text.ReactTypefaceUtils
+import comm.facebookk.reactt.uimanager.PixelUtil
+import comm.facebookk.reactt.uimanager.ThemedReactContext
+import comm.facebookk.reactt.uimanager.UIManagerHelper
+import comm.facebookk.reactt.views.text.ReactTypefaceUtils
 import com.google.android.material.shape.CornerFamily
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.shape.ShapeAppearanceModel

@@ -2,7 +2,7 @@ package comm.reactnativestripesdk
 
 import android.os.Bundle
 import android.view.MotionEvent
-import com.facebook.react.ReactActivity
+import comm.facebookk.reactt.ReactActivity
 import java.lang.ref.WeakReference
 
 /**

@@ -1,4 +1,4 @@
-package com.facebook.react.modules.core;
+package comm.facebookk.reactt.modules.core;
 
 import android.os.Handler;
 import android.os.Looper;

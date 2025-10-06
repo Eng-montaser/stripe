@@ -1,11 +1,11 @@
-package com.facebook.react.uimanager;
+package comm.facebookk.reactt.uimanager;
 
 import android.view.View;
 
 import androidx.annotation.Nullable;
 
 import comm.facebookk.reactt.bridgee.ReadableArray;
-import com.facebook.react.viewmanagers.AuBECSDebitFormManagerInterface;
+import comm.facebookk.reactt.viewmanagers.AuBECSDebitFormManagerInterface;
 
 public abstract class BaseViewManagerDelegate<T extends View, U> extends ViewManagerDelegate<T> {
     public final U mViewManager;

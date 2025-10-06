@@ -7,8 +7,8 @@ import android.widget.FrameLayout
 import comm.facebookk.reactt.bridgee.ReadableMap
 import comm.facebookk.reactt.bridgee.WritableMap
 import comm.facebookk.reactt.bridgee.WritableNativeMap
-import com.facebook.react.uimanager.ThemedReactContext
-import com.facebook.react.uimanager.UIManagerHelper
+import comm.facebookk.reactt.uimanager.ThemedReactContext
+import comm.facebookk.reactt.uimanager.UIManagerHelper
 import comm.reactnativestripesdk.buildPaymentSheetAppearance
 import comm.reactnativestripesdk.utils.ErrorType
 import comm.reactnativestripesdk.utils.PaymentSheetAppearanceException

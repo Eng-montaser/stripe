@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.facebook.react.uimanager;
+package comm.facebookk.reactt.uimanager;
 
 import android.util.DisplayMetrics;
 import android.util.TypedValue;

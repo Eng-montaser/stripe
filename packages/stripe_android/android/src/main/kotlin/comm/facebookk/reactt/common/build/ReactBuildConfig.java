@@ -1,4 +1,4 @@
-package com.facebook.react.common.build;
+package comm.facebookk.reactt.common.build;
 
 //import com.stripe.android.BuildConfig;
 

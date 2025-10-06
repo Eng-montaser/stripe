@@ -5,12 +5,12 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.facebook.react.views.text;
+package comm.facebookk.reactt.views.text;
 
 import android.graphics.Typeface;
 import android.os.Build;
 
-import com.facebook.react.uimanager.ReactBaseTextShadowNode;
+import comm.facebookk.reactt.uimanager.ReactBaseTextShadowNode;
 
 /** Responsible for normalizing style and numeric weight for backward compatibility. */
 class TypefaceStyle {

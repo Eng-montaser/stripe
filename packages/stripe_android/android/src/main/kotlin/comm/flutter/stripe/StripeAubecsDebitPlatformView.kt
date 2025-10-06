@@ -3,7 +3,7 @@ package comm.flutter.stripe
 import android.content.Context
 import android.view.View
 import comm.facebookk.reactt.bridgee.ReadableMap
-import com.facebook.react.uimanager.ThemedReactContext
+import comm.facebookk.reactt.uimanager.ThemedReactContext
 import comm.reactnativestripesdk.AuBECSDebitFormView
 import comm.reactnativestripesdk.AuBECSDebitFormViewManager
 import comm.reactnativestripesdk.StripeSdkModule

@@ -1,4 +1,4 @@
-package com.facebook.react.uimanager.events;
+package comm.facebookk.reactt.uimanager.events;
 
 import comm.facebookk.reactt.bridgee.WritableMap;
 

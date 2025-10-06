@@ -1,7 +1,7 @@
 package comm.reactnativestripesdk.pushprovisioning
 
 import comm.facebookk.reactt.bridgee.WritableMap
-import com.facebook.react.uimanager.events.Event
+import comm.facebookk.reactt.uimanager.events.Event
 
 internal class AddToWalletCompleteEvent(
   surfaceId: Int,

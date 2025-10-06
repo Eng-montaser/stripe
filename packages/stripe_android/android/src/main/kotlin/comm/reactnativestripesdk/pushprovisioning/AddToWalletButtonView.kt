@@ -16,8 +16,8 @@ import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
 import comm.facebookk.reactt.bridgee.ReadableMap
 import comm.facebookk.reactt.bridgee.WritableMap
-import com.facebook.react.uimanager.ThemedReactContext
-import com.facebook.react.uimanager.UIManagerHelper
+import comm.facebookk.reactt.uimanager.ThemedReactContext
+import comm.facebookk.reactt.uimanager.UIManagerHelper
 import comm.reactnativestripesdk.utils.createError
 
 @SuppressLint("ViewConstructor")

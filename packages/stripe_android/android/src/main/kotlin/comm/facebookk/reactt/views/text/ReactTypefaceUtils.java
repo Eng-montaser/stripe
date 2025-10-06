@@ -5,14 +5,14 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.facebook.react.views.text;
+package comm.facebookk.reactt.views.text;
 
 import android.content.res.AssetManager;
 import android.graphics.Typeface;
 import android.text.TextUtils;
 import androidx.annotation.Nullable;
 import comm.facebookk.reactt.bridgee.ReadableArray;
-import com.facebook.react.uimanager.ReactBaseTextShadowNode;
+import comm.facebookk.reactt.uimanager.ReactBaseTextShadowNode;
 
 import java.util.ArrayList;
 import java.util.List;

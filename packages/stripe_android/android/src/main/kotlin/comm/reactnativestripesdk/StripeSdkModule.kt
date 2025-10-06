@@ -18,7 +18,7 @@ import comm.facebookk.reactt.bridgee.ReadableMap
 import comm.facebookk.reactt.bridgee.UiThreadUtil
 import comm.facebookk.reactt.bridgee.WritableMap
 import comm.facebookk.reactt.bridgee.WritableNativeMap
-import com.facebook.react.module.annotations.ReactModule
+import comm.facebookk.reactt.module.annotations.ReactModule
 import comm.flutter.stripe.invoke
 import comm.reactnativestripesdk.addresssheet.AddressLauncherFragment
 import comm.reactnativestripesdk.customersheet.CustomerSheetFragment

@@ -1,4 +1,4 @@
-package com.facebook.react.common
+package comm.facebookk.reactt.common
 
 class MapBuilder {
 
