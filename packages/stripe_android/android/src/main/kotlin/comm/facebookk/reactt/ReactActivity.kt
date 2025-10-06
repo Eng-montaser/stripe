@@ -1,4 +1,4 @@
-package com.facebook.react
+package comm.facebookk.reactt
 
 import android.app.Activity
 
