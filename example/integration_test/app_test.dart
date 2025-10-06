@@ -7,7 +7,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:integration_test/integration_test.dart';
 
-import '.env.dart';
+import 'package:stripe_example/.env.example.dart';
 import 'ip.dart';
 
 void main() {
@@ -74,15 +74,14 @@ void main() {
 
       final paymentMethod = await Stripe.instance.createPaymentMethod(
         params: PaymentMethodParams.card(
-          paymentMethodData: PaymentMethodData(
-            billingDetails: billingDetails,
-          ),
+          paymentMethodData: PaymentMethodData(billingDetails: billingDetails),
         ),
       );
 
       // 3. create intent on the server
-      final paymentIntentResult =
-          await _createNoWebhookPayEndpointMethod(paymentMethod.id);
+      final paymentIntentResult = await _createNoWebhookPayEndpointMethod(
+        paymentMethod.id,
+      );
       expect(paymentIntentResult['status'], 'succeeded');
     });
   });
@@ -95,30 +94,25 @@ Future<Map<String, dynamic>> _createTestPaymentSheet() async {
   final url = Uri.parse('http://$ipAddress:4242/payment-sheet');
   final response = await http.post(
     url,
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: json.encode({
-      'a': 'a',
-    }),
+    headers: {'Content-Type': 'application/json'},
+    body: json.encode({'a': 'a'}),
   );
   return json.decode(response.body);
 }
 
 Future<Map<String, dynamic>> _createNoWebhookPayEndpointMethod(
-    String paymentMethodId) async {
+  String paymentMethodId,
+) async {
   final ipAddress = kApiUrl.split('\n').last.trim();
   final url = Uri.parse('http://$ipAddress:4242/pay-without-webhooks');
   final response = await http.post(
     url,
-    headers: {
-      'Content-Type': 'application/json',
-    },
+    headers: {'Content-Type': 'application/json'},
     body: json.encode({
       'useStripeSdk': true,
       'paymentMethodId': paymentMethodId,
       'currency': 'usd',
-      'items': ['id-1']
+      'items': ['id-1'],
     }),
   );
   return json.decode(response.body);

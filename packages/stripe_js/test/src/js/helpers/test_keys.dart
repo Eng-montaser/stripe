@@ -1,6 +1,6 @@
-import '../../../../../../example/lib/.env.dart' as env;
+import '../../../../../../example/lib/.env.example.dart' as env;
 
-const stripePublishableKey = env.stripePublishableKey;
+final stripePublishableKey = env.stripePublishableKey;
 
 const setupInputClientSecret =
     "seti_1K5SBRLLSCwoVL5pcwwwCxf0_secret_Kky7iz0pyrQiG0WbmnRIzJa9wNtMIgP";

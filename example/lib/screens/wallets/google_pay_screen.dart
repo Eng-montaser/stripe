@@ -7,14 +7,14 @@ import 'package:pay/pay.dart' as pay;
 import 'package:stripe_example/config.dart';
 import 'package:stripe_example/widgets/example_scaffold.dart';
 
-import '../../.env.dart';
+import '../../.env.example.dart';
 
 const _paymentItems = [
   pay.PaymentItem(
     label: 'Total',
     amount: '99.99',
     status: pay.PaymentItemStatus.final_price,
-  )
+  ),
 ];
 
 class GooglePayScreen extends StatefulWidget {
@@ -53,16 +53,15 @@ class _GooglePayScreenState extends State<GooglePayScreen> {
           paymentItems: _paymentItems,
           margin: const EdgeInsets.only(top: 15),
           onPaymentResult: onGooglePayResult,
-          loadingIndicator: const Center(
-            child: CircularProgressIndicator(),
-          ),
+          loadingIndicator: const Center(child: CircularProgressIndicator()),
           onPressed: () async {},
           childOnError: Text('Google Pay is not available in this device'),
           onError: (e) {
             ScaffoldMessenger.of(context).showSnackBar(
               const SnackBar(
                 content: Text(
-                    'There was an error while trying to perform the payment'),
+                  'There was an error while trying to perform the payment',
+                ),
               ),
             );
           },
@@ -98,14 +97,13 @@ class _GooglePayScreenState extends State<GooglePayScreen> {
       if (context.mounted) {
         scaffoldMessenger.showSnackBar(
           const SnackBar(
-              content: Text('Google Pay payment successfully completed')),
+            content: Text('Google Pay payment successfully completed'),
+          ),
         );
       }
     } catch (e) {
       if (context.mounted) {
-        scaffoldMessenger.showSnackBar(
-          SnackBar(content: Text('Error: $e')),
-        );
+        scaffoldMessenger.showSnackBar(SnackBar(content: Text('Error: $e')));
       }
     }
   }
@@ -114,9 +112,7 @@ class _GooglePayScreenState extends State<GooglePayScreen> {
     final url = Uri.parse('$kApiUrl/create-payment-intent');
     final response = await http.post(
       url,
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: {'Content-Type': 'application/json'},
       body: json.encode({
         'email': 'example@gmail.com',
         'currency': 'usd',
@@ -128,7 +124,8 @@ class _GooglePayScreenState extends State<GooglePayScreen> {
   }
 }
 
-final _paymentProfile = """{
+final _paymentProfile =
+    """{
   "provider": "google_pay",
   "data": {
     "environment": "TEST",

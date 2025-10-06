@@ -3,7 +3,7 @@ import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 
-import '.env.dart';
+import 'package:stripe_example/.env.example.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
